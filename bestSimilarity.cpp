@@ -1,3 +1,8 @@
+// CSCI 1300 Spring 2023
+// Author: Jeremiah Heredia
+// Recitation: 102  – Tuan Tran
+// Project 1 - Problem # 5
+
 //algorith makes sure the string input is valid
 
 bool isValidNote(string spn){
