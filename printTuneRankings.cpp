@@ -108,7 +108,6 @@ double bestSimilarity(string inputTune, string targetTune) {
     }
     return bestScore;
 }
-
 void printTuneRankings(string t1, string t2, string t3, string tTune){
     double num1 = bestSimilarity(t1, tTune);
     double num2 = bestSimilarity(t2, tTune);
@@ -155,5 +154,7 @@ void printTuneRankings(string t1, string t2, string t3, string tTune){
         array[2] = 1;
     }
 
-    cout << "1) Tune " << array[0] << ", " << "2) Tune " << array[1] << ", " << "3) Tune " << array[2];   
+    cout << "1) Tune " << array[0] << endl;
+    cout << "2) Tune " << array[1] << endl;
+    cout << "3) Tune " << array[2] << endl;   
 }
